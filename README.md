@@ -1,12 +1,96 @@
-# React + Vite
+# 💱 Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Currency Converter** web application built with **React**, **Tailwind CSS**, and a free currency API.  
+It allows users to seamlessly convert between different currencies with live exchange rates.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🔄 Convert between multiple currencies in real-time.  
+- 💡 Swap functionality to quickly interchange `From` and `To` currencies.  
+- 🎨 Clean and modern UI using **Tailwind CSS**.  
+- 🌐 Fetches live exchange rates from [@fawazahmed0/currency-api](https://github.com/fawazahmed0/currency-api).  
+- 📱 Responsive design, works on desktop and mobile.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React** – Frontend framework  
+- **Tailwind CSS** – Styling  
+- **Currency API** – Live conversion rates  
+
+---
+
+## 📂 Project Structure
+
+``` text
+currency-converter/
+│── public/
+│── src/
+│ ├── components/
+│ │ ├── index.js
+│ │ └── InputBox.jsx
+│ ├── hooks/
+│ │ └── useCurrencyInfo.js
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+│── vite.config.js
+│── package.json
+│── README.md
+└── LICENSE
+
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-username/currency-converter.git
+   cd currency-converter
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Start the development server
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit:
+   👉 http://localhost:5173/
+
+## 🚀 Usage
+
+- Enter the amount you want to convert.
+- Select the currency type in the From dropdown.
+- Select the target currency type in the To dropdown.
+- Click on Convert to see the converted amount.
+- Use the Swap button to switch From and To currencies quickly.
+
+## 🖼️ Screenshot
+
+![Currency Converter Screenshot](./screenshot.png)
+
+## 📌 API Reference
+
+This project fetches data from FawazAhmed0’s Currency API.
+
+Example endpoint:
+```
+https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/inr.json
+```
+
+## 📜 License
+
+This project is licensed under the MIT License.  
+Feel free to use, modify, and distribute it.
+
+## 👨‍💻 Developed with ❤️ by Divyansh Agrawal using React & Tailwind
