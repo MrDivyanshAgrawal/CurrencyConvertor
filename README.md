@@ -5,7 +5,8 @@ Convert between 200+ global currencies and cryptocurrencies with live exchange r
 
 **[View Live Demo](https://currencyconvertorreact.vercel.app/)** 🚀
 
-![Currency Converter Screenshot](./currencyconvertor.png)
+![Currency Converter Screenshot](/public/currencyconvertor.png)
+
 
 ---
 
@@ -107,7 +108,7 @@ https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/inr.
 ## 🔗 Links
 
 - **Live Demo**: [https://currencyconvertorreact.vercel.app/](https://currencyconvertorreact.vercel.app/)
-- **GitHub Repository**: [[https://github.com/your-username/currency-converter](https://github.com/MrDivyanshAgrawal/CurrencyConvertor]([https://github.com/your-username/currency-converter](https://github.com/MrDivyanshAgrawal/CurrencyConvertor)
+- **GitHub Repository**: **GitHub Repository**: [https://github.com/MrDivyanshAgrawal/CurrencyConvertor](https://github.com/MrDivyanshAgrawal/CurrencyConvertor)
 
 ## 📜 License
 
