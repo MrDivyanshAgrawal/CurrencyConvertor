@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Remove spinner buttons from number inputs */
+@layer base {
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+}
+
+/* Custom responsive styles */
+@media (max-width: 640px) {
+  .currency-container {
+    flex-direction: column;
+  }
+  
+  .input-box {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
