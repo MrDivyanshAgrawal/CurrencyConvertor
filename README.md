@@ -59,7 +59,7 @@ currency-converter/
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/currency-converter.git
+   git clone https://github.com/MrDivyanshAgrawal/CurrencyConvertor.git
    cd currency-converter
    ```
 
@@ -107,8 +107,8 @@ https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/inr.
 
 ## 🔗 Links
 
-- **Live Demo**: [https://currencyconvertorreact.vercel.app/](https://currencyconvertorreact.vercel.app/)
-- **GitHub Repository**: **GitHub Repository**: [https://github.com/MrDivyanshAgrawal/CurrencyConvertor](https://github.com/MrDivyanshAgrawal/CurrencyConvertor)
+- [Live Demo](https://currencyconvertorreact.vercel.app/)
+- [GitHub Repository](https://github.com/MrDivyanshAgrawal/CurrencyConvertor)
 
 ## 📜 License
 
