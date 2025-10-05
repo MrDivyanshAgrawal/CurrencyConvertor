@@ -107,8 +107,8 @@ https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/inr.
 
 ## 🔗 Links
 
-- **Live Demo**: (https://currencyconvertorreact.vercel.app/)
-- **GitHub Repository**:(https://github.com/MrDivyanshAgrawal/CurrencyConvertor)
+- [Live Demo](https://currencyconvertorreact.vercel.app/)
+- [GitHub Repository](https://github.com/MrDivyanshAgrawal/CurrencyConvertor)
 
 ## 📜 License
 
